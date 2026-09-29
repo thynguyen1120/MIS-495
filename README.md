@@ -50,7 +50,15 @@ One multi-family Hà Bắc listing was excluded from the 16-group opportunity an
 
 ## Repository contents
 
-This initial portfolio overview documents the project context and reporting scope. Final handover notebooks and presentation assets are pending version verification before inclusion. Raw customer-review records and internal working files are not included in this overview.
+| File | Purpose |
+| --- | --- |
+| [01_Sentiment_ABSA_Topics.ipynb](01_Sentiment_ABSA_Topics.ipynb) | ViSoBERT sentiment, rule-based aspects, NMF topics and six-sheet Excel export |
+| [02_Seed_Market_Gap.ipynb](02_Seed_Market_Gap.ipynb) | Competitor assortment, price quartiles, category opportunities and five-sheet Excel export |
+| [RUNNING.md](RUNNING.md) | Input requirements, execution instructions and version boundaries |
+
+The notebooks are historical development artifacts selected for their self-contained code and quality checks. Their snapshots differ from the final reporting scope above: sentiment uses the earlier six-aspect/NMF pipeline; market-gap uses 791 seed listings and 17 groups. They are not represented as reproducing the final seven-theme/794-listing report.
+
+Raw customer-review records, internal working files and final client reports are not distributed in this repository.
 
 ## Tools
 
